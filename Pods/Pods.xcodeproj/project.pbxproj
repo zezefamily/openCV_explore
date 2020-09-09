@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		087D2747E9C3326C5CAB908FF65ED7BA /* Pods-openCV_explore-openCV_exploreUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB9711075E512622A5523AE662D35A4 /* Pods-openCV_explore-openCV_exploreUITests-dummy.m */; };
+		21485063E270D2D85F43933E3F7FE533 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		28C97A583D3F7798159DF7B630A36FCB /* Pods-openCV_explore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 676E3CCDCBB329767F8E5CF98CFEBD6B /* Pods-openCV_explore-dummy.m */; };
+		3F71B7B4C592439ADE3FB1EE5E45C78F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8DFD057BBF209C8228B0E3F7EEC0E59E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B8A35D00EE0066C2D46C7CA81112594F /* Pods-openCV_explore-openCV_exploreUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5512F0E33CC6647B5113411963769254 /* Pods-openCV_explore-openCV_exploreUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE5A9AB0BBA4DDFC9EAE1B7DB08C7DF4 /* Pods-openCV_exploreTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5A3AA8A61975A25D398D01B33C2E4F /* Pods-openCV_exploreTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CADE074325479F9448851539B4432443 /* Pods-openCV_explore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4D5127DFB92D662EE538B3CC9978C2 /* Pods-openCV_explore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D32B7324E8A4D179E60EB146DA95377F /* Pods-openCV_exploreTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0FE0299E12D158E0BA9C127A088B9 /* Pods-openCV_exploreTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B16C5D63900C5547B538BB90F5F52A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9322675A8677CCD07DDF91F90D94DB81;
+			remoteInfo = "Pods-openCV_explore";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A2DBFC2553D589E19A413E252CC583 /* Pods-openCV_explore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-openCV_explore.modulemap"; sourceTree = "<group>"; };
+		110D21581B12922844EBCBCC8AFBAF3A /* Pods-openCV_explore-openCV_exploreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-openCV_explore-openCV_exploreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		191F81C4CD32D916C0B255DB794D6E04 /* Pods-openCV_explore-openCV_exploreUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-openCV_explore-openCV_exploreUITests.modulemap"; sourceTree = "<group>"; };
+		1AAB8EC26E977BA66F1190A8E9C21AE6 /* Pods_openCV_explore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_openCV_explore.framework; path = "Pods-openCV_explore.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD0FE0299E12D158E0BA9C127A088B9 /* Pods-openCV_exploreTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-openCV_exploreTests-dummy.m"; sourceTree = "<group>"; };
+		2E1C76BCDFC2B2AC95CCD66BD7C794B9 /* Pods-openCV_explore-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-openCV_explore-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FEEEE7B3B30D814E3D4E2FD63B50829 /* Pods-openCV_exploreTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-openCV_exploreTests-Info.plist"; sourceTree = "<group>"; };
+		4CFEA7D810EA3FD9AC74FB4DBA3B3C12 /* Pods_openCV_exploreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_openCV_exploreTests.framework; path = "Pods-openCV_exploreTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6C6A0D9EE7FCA9B4FC53621B7FDFED /* Pods-openCV_explore-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-openCV_explore-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F4D5127DFB92D662EE538B3CC9978C2 /* Pods-openCV_explore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-openCV_explore-umbrella.h"; sourceTree = "<group>"; };
+		526A1E09B42A105D85ECE4B2B30986E3 /* Pods-openCV_explore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-openCV_explore.debug.xcconfig"; sourceTree = "<group>"; };
+		5512F0E33CC6647B5113411963769254 /* Pods-openCV_explore-openCV_exploreUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-openCV_explore-openCV_exploreUITests-umbrella.h"; sourceTree = "<group>"; };
+		57D6FF7EF5AF83409854468D4698A5A5 /* Pods-openCV_exploreTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-openCV_exploreTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5AD3F90406774EC49A993897AA8E624A /* Pods-openCV_explore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-openCV_explore.release.xcconfig"; sourceTree = "<group>"; };
+		5DC6B16FCE4894FE6489344392B06F99 /* Pods-openCV_explore-openCV_exploreUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-openCV_explore-openCV_exploreUITests-Info.plist"; sourceTree = "<group>"; };
+		64AC6D3A9EB361947D3B131B2B255848 /* Pods-openCV_explore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-openCV_explore-Info.plist"; sourceTree = "<group>"; };
+		676E3CCDCBB329767F8E5CF98CFEBD6B /* Pods-openCV_explore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-openCV_explore-dummy.m"; sourceTree = "<group>"; };
+		6894583F7C77050CD706A95036ED50F3 /* Pods-openCV_exploreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-openCV_exploreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72E0F43ECFF72A47CEC9CEB19DD563C7 /* Pods_openCV_explore_openCV_exploreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_openCV_explore_openCV_exploreUITests.framework; path = "Pods-openCV_explore-openCV_exploreUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		760FA5DB1449E6C575F7E86546C30A84 /* Pods-openCV_exploreTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-openCV_exploreTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9369ADEBFD9E2815CE8FD3A45C58D1F1 /* Pods-openCV_explore-openCV_exploreUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-openCV_explore-openCV_exploreUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99FDB7182E9CCE728DB87C871C0290BD /* Pods-openCV_exploreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-openCV_exploreTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDB9711075E512622A5523AE662D35A4 /* Pods-openCV_explore-openCV_exploreUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-openCV_explore-openCV_exploreUITests-dummy.m"; sourceTree = "<group>"; };
+		CE5F977FCF810782B8A5E8EA89FE0C89 /* Pods-openCV_explore-openCV_exploreUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-openCV_explore-openCV_exploreUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7F25AFEB848C8E54F4528ACC5E4BD35 /* Pods-openCV_explore-openCV_exploreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-openCV_explore-openCV_exploreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF5A3AA8A61975A25D398D01B33C2E4F /* Pods-openCV_exploreTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-openCV_exploreTests-umbrella.h"; sourceTree = "<group>"; };
+		FF99C04610A6FC7A4781013DB969BACA /* Pods-openCV_exploreTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-openCV_exploreTests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26865AD5EFE9D684406D6E53A90DB824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFD057BBF209C8228B0E3F7EEC0E59E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51876EF1256376C0163CA931022B7FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F71B7B4C592439ADE3FB1EE5E45C78F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0162D278769D466ED1931EA2FC48DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21485063E270D2D85F43933E3F7FE533 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B8755CFF5D3EC72407086B872BD90FE /* Pods-openCV_exploreTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF99C04610A6FC7A4781013DB969BACA /* Pods-openCV_exploreTests.modulemap */,
+				57D6FF7EF5AF83409854468D4698A5A5 /* Pods-openCV_exploreTests-acknowledgements.markdown */,
+				760FA5DB1449E6C575F7E86546C30A84 /* Pods-openCV_exploreTests-acknowledgements.plist */,
+				2DD0FE0299E12D158E0BA9C127A088B9 /* Pods-openCV_exploreTests-dummy.m */,
+				3FEEEE7B3B30D814E3D4E2FD63B50829 /* Pods-openCV_exploreTests-Info.plist */,
+				EF5A3AA8A61975A25D398D01B33C2E4F /* Pods-openCV_exploreTests-umbrella.h */,
+				6894583F7C77050CD706A95036ED50F3 /* Pods-openCV_exploreTests.debug.xcconfig */,
+				99FDB7182E9CCE728DB87C871C0290BD /* Pods-openCV_exploreTests.release.xcconfig */,
+			);
+			name = "Pods-openCV_exploreTests";
+			path = "Target Support Files/Pods-openCV_exploreTests";
+			sourceTree = "<group>";
+		};
+		7DE6F83E82F9266D1254A8E3ED0B645B /* Pods-openCV_explore-openCV_exploreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				191F81C4CD32D916C0B255DB794D6E04 /* Pods-openCV_explore-openCV_exploreUITests.modulemap */,
+				9369ADEBFD9E2815CE8FD3A45C58D1F1 /* Pods-openCV_explore-openCV_exploreUITests-acknowledgements.markdown */,
+				CE5F977FCF810782B8A5E8EA89FE0C89 /* Pods-openCV_explore-openCV_exploreUITests-acknowledgements.plist */,
+				BDB9711075E512622A5523AE662D35A4 /* Pods-openCV_explore-openCV_exploreUITests-dummy.m */,
+				5DC6B16FCE4894FE6489344392B06F99 /* Pods-openCV_explore-openCV_exploreUITests-Info.plist */,
+				5512F0E33CC6647B5113411963769254 /* Pods-openCV_explore-openCV_exploreUITests-umbrella.h */,
+				110D21581B12922844EBCBCC8AFBAF3A /* Pods-openCV_explore-openCV_exploreUITests.debug.xcconfig */,
+				D7F25AFEB848C8E54F4528ACC5E4BD35 /* Pods-openCV_explore-openCV_exploreUITests.release.xcconfig */,
+			);
+			name = "Pods-openCV_explore-openCV_exploreUITests";
+			path = "Target Support Files/Pods-openCV_explore-openCV_exploreUITests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E3D164B803EA1451093B7B767286C719 /* Products */,
+				F7C12B63266C504BAAAB5BC2EDF9E606 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3D164B803EA1451093B7B767286C719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB8EC26E977BA66F1190A8E9C21AE6 /* Pods_openCV_explore.framework */,
+				72E0F43ECFF72A47CEC9CEB19DD563C7 /* Pods_openCV_explore_openCV_exploreUITests.framework */,
+				4CFEA7D810EA3FD9AC74FB4DBA3B3C12 /* Pods_openCV_exploreTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7C12B63266C504BAAAB5BC2EDF9E606 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB7226F2999FA3B17A2C0DE2497DF15 /* Pods-openCV_explore */,
+				7DE6F83E82F9266D1254A8E3ED0B645B /* Pods-openCV_explore-openCV_exploreUITests */,
+				1B8755CFF5D3EC72407086B872BD90FE /* Pods-openCV_exploreTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FAB7226F2999FA3B17A2C0DE2497DF15 /* Pods-openCV_explore */ = {
+			isa = PBXGroup;
+			children = (
+				02A2DBFC2553D589E19A413E252CC583 /* Pods-openCV_explore.modulemap */,
+				2E1C76BCDFC2B2AC95CCD66BD7C794B9 /* Pods-openCV_explore-acknowledgements.markdown */,
+				4D6C6A0D9EE7FCA9B4FC53621B7FDFED /* Pods-openCV_explore-acknowledgements.plist */,
+				676E3CCDCBB329767F8E5CF98CFEBD6B /* Pods-openCV_explore-dummy.m */,
+				64AC6D3A9EB361947D3B131B2B255848 /* Pods-openCV_explore-Info.plist */,
+				4F4D5127DFB92D662EE538B3CC9978C2 /* Pods-openCV_explore-umbrella.h */,
+				526A1E09B42A105D85ECE4B2B30986E3 /* Pods-openCV_explore.debug.xcconfig */,
+				5AD3F90406774EC49A993897AA8E624A /* Pods-openCV_explore.release.xcconfig */,
+			);
+			name = "Pods-openCV_explore";
+			path = "Target Support Files/Pods-openCV_explore";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		057195D3CCD6184A445494896E91BC36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5A9AB0BBA4DDFC9EAE1B7DB08C7DF4 /* Pods-openCV_exploreTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0DA4A593B326DEA93A4112F95DA21E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A35D00EE0066C2D46C7CA81112594F /* Pods-openCV_explore-openCV_exploreUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F059CF3E87D1DD9EAF92B49770AF95B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADE074325479F9448851539B4432443 /* Pods-openCV_explore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		511E4FC815C4E4198A15749FC6906B6D /* Pods-openCV_exploreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB90E42C82B44BEE409E07979DF36A5 /* Build configuration list for PBXNativeTarget "Pods-openCV_exploreTests" */;
+			buildPhases = (
+				057195D3CCD6184A445494896E91BC36 /* Headers */,
+				8F63AA2A71C794D3502107D79CEBE6B7 /* Sources */,
+				51876EF1256376C0163CA931022B7FC8 /* Frameworks */,
+				720EC6ED95F85CB5C1A66A44EDE33BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040E449FB91ABFCC54ED05CCBA2AD0EC /* PBXTargetDependency */,
+			);
+			name = "Pods-openCV_exploreTests";
+			productName = "Pods-openCV_exploreTests";
+			productReference = 4CFEA7D810EA3FD9AC74FB4DBA3B3C12 /* Pods_openCV_exploreTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		658708229D2CFB008352AEE0940C0960 /* Pods-openCV_explore-openCV_exploreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27B5B756AC0194B1AD7D91E4DA85FA4F /* Build configuration list for PBXNativeTarget "Pods-openCV_explore-openCV_exploreUITests" */;
+			buildPhases = (
+				BA0DA4A593B326DEA93A4112F95DA21E /* Headers */,
+				03B339E889261C25603CCE13A90745CA /* Sources */,
+				E0162D278769D466ED1931EA2FC48DF9 /* Frameworks */,
+				7AADFF9FA5EA891C3E0AA68D7EAB5A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-openCV_explore-openCV_exploreUITests";
+			productName = "Pods-openCV_explore-openCV_exploreUITests";
+			productReference = 72E0F43ECFF72A47CEC9CEB19DD563C7 /* Pods_openCV_explore_openCV_exploreUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9322675A8677CCD07DDF91F90D94DB81 /* Pods-openCV_explore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3B977D0491128205A1B85E5ABAE074 /* Build configuration list for PBXNativeTarget "Pods-openCV_explore" */;
+			buildPhases = (
+				F059CF3E87D1DD9EAF92B49770AF95B6 /* Headers */,
+				EAA0DC7502379776D6D4C5E19671B86A /* Sources */,
+				26865AD5EFE9D684406D6E53A90DB824 /* Frameworks */,
+				920C0A98CD499A9F865B1896584DDAA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-openCV_explore";
+			productName = "Pods-openCV_explore";
+			productReference = 1AAB8EC26E977BA66F1190A8E9C21AE6 /* Pods_openCV_explore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E3D164B803EA1451093B7B767286C719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9322675A8677CCD07DDF91F90D94DB81 /* Pods-openCV_explore */,
+				658708229D2CFB008352AEE0940C0960 /* Pods-openCV_explore-openCV_exploreUITests */,
+				511E4FC815C4E4198A15749FC6906B6D /* Pods-openCV_exploreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		720EC6ED95F85CB5C1A66A44EDE33BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AADFF9FA5EA891C3E0AA68D7EAB5A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920C0A98CD499A9F865B1896584DDAA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B339E889261C25603CCE13A90745CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087D2747E9C3326C5CAB908FF65ED7BA /* Pods-openCV_explore-openCV_exploreUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F63AA2A71C794D3502107D79CEBE6B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32B7324E8A4D179E60EB146DA95377F /* Pods-openCV_exploreTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA0DC7502379776D6D4C5E19671B86A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C97A583D3F7798159DF7B630A36FCB /* Pods-openCV_explore-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040E449FB91ABFCC54ED05CCBA2AD0EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-openCV_explore";
+			target = 9322675A8677CCD07DDF91F90D94DB81 /* Pods-openCV_explore */;
+			targetProxy = 2B16C5D63900C5547B538BB90F5F52A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11B27C30FAE204CDC46A8FEEFA55548E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6894583F7C77050CD706A95036ED50F3 /* Pods-openCV_exploreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-openCV_exploreTests/Pods-openCV_exploreTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-openCV_exploreTests/Pods-openCV_exploreTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		23C89940BCD1307CA5CAC5B87777456F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99FDB7182E9CCE728DB87C871C0290BD /* Pods-openCV_exploreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-openCV_exploreTests/Pods-openCV_exploreTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-openCV_exploreTests/Pods-openCV_exploreTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A9A30F640E90E174A2B39E82F6D9D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526A1E09B42A105D85ECE4B2B30986E3 /* Pods-openCV_explore.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-openCV_explore/Pods-openCV_explore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-openCV_explore/Pods-openCV_explore.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68D9368820C50EA837587B06D30BE746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F25AFEB848C8E54F4528ACC5E4BD35 /* Pods-openCV_explore-openCV_exploreUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-openCV_explore-openCV_exploreUITests/Pods-openCV_explore-openCV_exploreUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-openCV_explore-openCV_exploreUITests/Pods-openCV_explore-openCV_exploreUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76DFBB1DE34ACAA9A692F9F2FB8D019F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD3F90406774EC49A993897AA8E624A /* Pods-openCV_explore.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-openCV_explore/Pods-openCV_explore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-openCV_explore/Pods-openCV_explore.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CF7BD10F13979F9E1CB2BD761D370993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110D21581B12922844EBCBCC8AFBAF3A /* Pods-openCV_explore-openCV_exploreUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-openCV_explore-openCV_exploreUITests/Pods-openCV_explore-openCV_exploreUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-openCV_explore-openCV_exploreUITests/Pods-openCV_explore-openCV_exploreUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C3B977D0491128205A1B85E5ABAE074 /* Build configuration list for PBXNativeTarget "Pods-openCV_explore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A9A30F640E90E174A2B39E82F6D9D50 /* Debug */,
+				76DFBB1DE34ACAA9A692F9F2FB8D019F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27B5B756AC0194B1AD7D91E4DA85FA4F /* Build configuration list for PBXNativeTarget "Pods-openCV_explore-openCV_exploreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7BD10F13979F9E1CB2BD761D370993 /* Debug */,
+				68D9368820C50EA837587B06D30BE746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB90E42C82B44BEE409E07979DF36A5 /* Build configuration list for PBXNativeTarget "Pods-openCV_exploreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B27C30FAE204CDC46A8FEEFA55548E /* Debug */,
+				23C89940BCD1307CA5CAC5B87777456F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
