@@ -6,7 +6,8 @@ target 'openCV_explore' do
   use_frameworks!
 
   # Pods for openCV_explore
-
+  pod 'OpenCV', '~> 4.1.0'
+  
   target 'openCV_exploreTests' do
     inherit! :search_paths
     # Pods for testing
