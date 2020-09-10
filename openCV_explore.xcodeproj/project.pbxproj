@@ -12,13 +12,15 @@
 		E9A48E63B0EBFEA6205D2874 /* Pods_openCV_explore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F39E7C24EBDB77B18876EC /* Pods_openCV_explore.framework */; };
 		FF714CB62508DAFB002524FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF714CB52508DAFB002524FA /* AppDelegate.m */; };
 		FF714CB92508DAFB002524FA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF714CB82508DAFB002524FA /* SceneDelegate.m */; };
-		FF714CBC2508DAFB002524FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF714CBB2508DAFB002524FA /* ViewController.m */; };
+		FF714CBC2508DAFB002524FA /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF714CBB2508DAFB002524FA /* ViewController.mm */; };
 		FF714CBF2508DAFB002524FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF714CBD2508DAFB002524FA /* Main.storyboard */; };
 		FF714CC12508DAFF002524FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF714CC02508DAFF002524FA /* Assets.xcassets */; };
 		FF714CC42508DAFF002524FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF714CC22508DAFF002524FA /* LaunchScreen.storyboard */; };
 		FF714CC72508DAFF002524FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF714CC62508DAFF002524FA /* main.m */; };
 		FF714CD12508DB00002524FA /* openCV_exploreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF714CD02508DB00002524FA /* openCV_exploreTests.m */; };
 		FF714CDC2508DB00002524FA /* openCV_exploreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF714CDB2508DB00002524FA /* openCV_exploreUITests.m */; };
+		FF714CEB2508E244002524FA /* OpenCVSample.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF714CEA2508E244002524FA /* OpenCVSample.mm */; };
+		FF714CEE2508E25D002524FA /* openVCSampleCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF714CEC2508E25D002524FA /* openVCSampleCode.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +56,7 @@
 		FF714CB72508DAFB002524FA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		FF714CB82508DAFB002524FA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		FF714CBA2508DAFB002524FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FF714CBB2508DAFB002524FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF714CBB2508DAFB002524FA /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		FF714CBE2508DAFB002524FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF714CC02508DAFF002524FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF714CC32508DAFF002524FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,11 @@
 		FF714CD72508DB00002524FA /* openCV_exploreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openCV_exploreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF714CDB2508DB00002524FA /* openCV_exploreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openCV_exploreUITests.m; sourceTree = "<group>"; };
 		FF714CDD2508DB00002524FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF714CE92508E244002524FA /* OpenCVSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVSample.h; sourceTree = "<group>"; };
+		FF714CEA2508E244002524FA /* OpenCVSample.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVSample.mm; sourceTree = "<group>"; };
+		FF714CEC2508E25D002524FA /* openVCSampleCode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = openVCSampleCode.cpp; sourceTree = "<group>"; };
+		FF714CED2508E25D002524FA /* openVCSampleCode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = openVCSampleCode.hpp; sourceTree = "<group>"; };
+		FF714CF1250A336A002524FA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +113,6 @@
 				17872841912E2CE7139DA154 /* Pods-openCV_exploreTests.debug.xcconfig */,
 				4C6B84ABCFFE948D553E32DA /* Pods-openCV_exploreTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,12 +156,17 @@
 				FF714CB72508DAFB002524FA /* SceneDelegate.h */,
 				FF714CB82508DAFB002524FA /* SceneDelegate.m */,
 				FF714CBA2508DAFB002524FA /* ViewController.h */,
-				FF714CBB2508DAFB002524FA /* ViewController.m */,
+				FF714CBB2508DAFB002524FA /* ViewController.mm */,
 				FF714CBD2508DAFB002524FA /* Main.storyboard */,
 				FF714CC02508DAFF002524FA /* Assets.xcassets */,
 				FF714CC22508DAFF002524FA /* LaunchScreen.storyboard */,
 				FF714CC52508DAFF002524FA /* Info.plist */,
 				FF714CC62508DAFF002524FA /* main.m */,
+				FF714CE92508E244002524FA /* OpenCVSample.h */,
+				FF714CEA2508E244002524FA /* OpenCVSample.mm */,
+				FF714CEC2508E25D002524FA /* openVCSampleCode.cpp */,
+				FF714CED2508E25D002524FA /* openVCSampleCode.hpp */,
+				FF714CF1250A336A002524FA /* PrefixHeader.pch */,
 			);
 			path = openCV_explore;
 			sourceTree = "<group>";
@@ -380,8 +391,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF714CBC2508DAFB002524FA /* ViewController.m in Sources */,
+				FF714CBC2508DAFB002524FA /* ViewController.mm in Sources */,
 				FF714CB62508DAFB002524FA /* AppDelegate.m in Sources */,
+				FF714CEB2508E244002524FA /* OpenCVSample.mm in Sources */,
+				FF714CEE2508E25D002524FA /* openVCSampleCode.cpp in Sources */,
 				FF714CC72508DAFF002524FA /* main.m in Sources */,
 				FF714CB92508DAFB002524FA /* SceneDelegate.m in Sources */,
 			);
@@ -554,6 +567,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKB2W89RHK;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/openCV_explore/PrefixHeader.pch";
 				INFOPLIST_FILE = openCV_explore/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -572,6 +587,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKB2W89RHK;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/openCV_explore/PrefixHeader.pch";
 				INFOPLIST_FILE = openCV_explore/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
