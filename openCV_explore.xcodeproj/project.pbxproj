@@ -10,6 +10,9 @@
 		62C9D6F34E7326B49352B6FB /* Pods_openCV_explore_openCV_exploreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3758061E84A6AF6FF3E7C8B /* Pods_openCV_explore_openCV_exploreUITests.framework */; };
 		7017296456C5B9BADA3A93E7 /* Pods_openCV_exploreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D628C062F85D42CC2EC825BD /* Pods_openCV_exploreTests.framework */; };
 		E9A48E63B0EBFEA6205D2874 /* Pods_openCV_explore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F39E7C24EBDB77B18876EC /* Pods_openCV_explore.framework */; };
+		FF1F0B1A250B581F00D2A37A /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = FF1F0B19250B581F00D2A37A /* haarcascade_frontalface_alt.xml */; };
+		FF1F0B1C250B592C00D2A37A /* haarcascade_eye_tree_eyeglasses.xml in Resources */ = {isa = PBXBuildFile; fileRef = FF1F0B1B250B592C00D2A37A /* haarcascade_eye_tree_eyeglasses.xml */; };
+		FF1F0B1E250B868C00D2A37A /* sr.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FF1F0B1D250B868C00D2A37A /* sr.mlmodel */; };
 		FF714CB62508DAFB002524FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF714CB52508DAFB002524FA /* AppDelegate.m */; };
 		FF714CB92508DAFB002524FA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF714CB82508DAFB002524FA /* SceneDelegate.m */; };
 		FF714CBC2508DAFB002524FA /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF714CBB2508DAFB002524FA /* ViewController.mm */; };
@@ -50,6 +53,9 @@
 		C3805C5DFE3C67A0B580B289 /* Pods-openCV_explore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openCV_explore.debug.xcconfig"; path = "Target Support Files/Pods-openCV_explore/Pods-openCV_explore.debug.xcconfig"; sourceTree = "<group>"; };
 		D628C062F85D42CC2EC825BD /* Pods_openCV_exploreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_openCV_exploreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3758061E84A6AF6FF3E7C8B /* Pods_openCV_explore_openCV_exploreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_openCV_explore_openCV_exploreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1F0B19250B581F00D2A37A /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		FF1F0B1B250B592C00D2A37A /* haarcascade_eye_tree_eyeglasses.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_eye_tree_eyeglasses.xml; sourceTree = "<group>"; };
+		FF1F0B1D250B868C00D2A37A /* sr.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = sr.mlmodel; sourceTree = "<group>"; };
 		FF714CB12508DAFB002524FA /* openCV_explore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openCV_explore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF714CB42508DAFB002524FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF714CB52508DAFB002524FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -151,6 +157,9 @@
 		FF714CB32508DAFB002524FA /* openCV_explore */ = {
 			isa = PBXGroup;
 			children = (
+				FF1F0B1D250B868C00D2A37A /* sr.mlmodel */,
+				FF1F0B1B250B592C00D2A37A /* haarcascade_eye_tree_eyeglasses.xml */,
+				FF1F0B19250B581F00D2A37A /* haarcascade_frontalface_alt.xml */,
 				FF714CB42508DAFB002524FA /* AppDelegate.h */,
 				FF714CB52508DAFB002524FA /* AppDelegate.m */,
 				FF714CB72508DAFB002524FA /* SceneDelegate.h */,
@@ -295,8 +304,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF1F0B1C250B592C00D2A37A /* haarcascade_eye_tree_eyeglasses.xml in Resources */,
 				FF714CC42508DAFF002524FA /* LaunchScreen.storyboard in Resources */,
 				FF714CC12508DAFF002524FA /* Assets.xcassets in Resources */,
+				FF1F0B1A250B581F00D2A37A /* haarcascade_frontalface_alt.xml in Resources */,
 				FF714CBF2508DAFB002524FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +408,7 @@
 				FF714CEE2508E25D002524FA /* openVCSampleCode.cpp in Sources */,
 				FF714CC72508DAFF002524FA /* main.m in Sources */,
 				FF714CB92508DAFB002524FA /* SceneDelegate.m in Sources */,
+				FF1F0B1E250B868C00D2A37A /* sr.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

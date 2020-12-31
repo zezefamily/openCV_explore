@@ -12,15 +12,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface OpenCVSample : NSObject
 
-- (cv::Mat)cvMatFromUIImage:(UIImage *)image;
++ (cv::Mat)cvMatFromUIImage:(UIImage *)image;
 
-- (cv::Mat)cvMatFromUIImage2:(UIImage *)image;
++ (cv::Mat)cvMatFromUIImage2:(UIImage *)image;
 
-- (UIImage *)UIImageFromCVMat:(cv::Mat)cvMat;
++ (UIImage *)UIImageFromCVMat:(cv::Mat)cvMat;
 
-- (UIImage *)UIImageFromCVMat2:(cv::Mat)cvMat;
++ (UIImage *)UIImageFromCVMat2:(cv::Mat)cvMat;
 
-- (NSData *)NSDataFromCVMat:(cv::Mat)cvMat;
++ (NSData *)NSDataFromCVMat:(cv::Mat)cvMat;
 
 @end
 

@@ -12,7 +12,7 @@
 @implementation OpenCVSample
 
 // UIImage->cv::Mat
-- (cv::Mat)cvMatFromUIImage:(UIImage *)image
++ (cv::Mat)cvMatFromUIImage:(UIImage *)image
 {
       CGColorSpaceRef colorSpace = CGImageGetColorSpace(image.CGImage);
       CGFloat cols = image.size.width;
@@ -33,7 +33,7 @@
       return cvMat;
 }
 
-- (cv::Mat)cvMatFromUIImage2:(UIImage *)image
++ (cv::Mat)cvMatFromUIImage2:(UIImage *)image
 {
     CGFloat cols = image.size.width;
     CGFloat rows = image.size.height;
@@ -43,7 +43,7 @@
 }
 
 //cv::Mat => UIImage
--(UIImage *)UIImageFromCVMat:(cv::Mat)cvMat
++ (UIImage *)UIImageFromCVMat:(cv::Mat)cvMat
 {
     NSData *data = [self NSDataFromCVMat:cvMat];
     CGColorSpaceRef colorSpace;
@@ -73,13 +73,13 @@
     CGColorSpaceRelease(colorSpace);
     return finalImage;
 }
--(UIImage *)UIImageFromCVMat2:(cv::Mat)cvMat
++ (UIImage *)UIImageFromCVMat2:(cv::Mat)cvMat
 {
     return MatToUIImage(cvMat);
 }
 
 //cvMat => NSData
-- (NSData *)NSDataFromCVMat:(cv::Mat)cvMat
++ (NSData *)NSDataFromCVMat:(cv::Mat)cvMat
 {
     return [NSData dataWithBytes:cvMat.data length:cvMat.elemSize() * cvMat.total()];
 }
